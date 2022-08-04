@@ -35,6 +35,9 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 import java.util.List;
 
+// THIS FILE IS NOT NECESSARY
+// JUST LAZY TO GET RID OF IT.
+
 public class ListFragment extends Fragment {
 
     RecyclerView recyclerView;

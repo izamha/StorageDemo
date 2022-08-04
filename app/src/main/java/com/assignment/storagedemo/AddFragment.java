@@ -19,6 +19,9 @@ import com.assignment.storagedemo.model.Student;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
+// THIS FILE IS NOT NECESSARY
+// JUST LAZY TO GET RID OF IT.
+
 public class AddFragment extends Fragment {
     EditText firstName;
     EditText lastName;
