@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/listFragment">
+
+    <fragment
+        android:id="@+id/listFragment"
+        android:name="com.assignment.storagedemo.ListFragment"
+        android:label="fragment_list"
+        tools:layout="@layout/fragment_list" >
+        <action
+            android:id="@+id/action_listFragment_to_addFragment"
+            app:destination="@id/addFragment" />
+        <action
+            android:id="@+id/action_listFragment_to_placeHolderFragment"
+            app:destination="@id/placeHolderFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addFragment"
+        android:name="com.assignment.storagedemo.AddFragment"
+        android:label="fragment_add"
+        tools:layout="@layout/fragment_add" >
+        <action
+            android:id="@+id/action_addFragment_to_listFragment"
+            app:destination="@id/listFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/placeHolderFragment"
+        android:name="com.assignment.storagedemo.PlaceHolderFragment"
+        android:label="fragment_place_holder"
+        tools:layout="@layout/fragment_place_holder" >
+        <action
+            android:id="@+id/action_placeHolderFragment_to_fragmentOneCreate"
+            app:destination="@id/fragmentOneCreate" />
+        <action
+            android:id="@+id/action_placeHolderFragment_to_listFragment"
+            app:destination="@id/listFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentOneCreate"
+        android:name="com.assignment.storagedemo.FragmentOneCreate"
+        android:label="fragment_one_create"
+        tools:layout="@layout/fragment_one_create" >
+        <action
+            android:id="@+id/action_fragmentOneCreate_to_placeHolderFragment"
+            app:destination="@id/placeHolderFragment" />
+    </fragment>
+</navigation>

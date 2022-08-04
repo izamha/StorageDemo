@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "711133354854",
+    "firebase_url": "https://storagedemo-7cd4e-default-rtdb.firebaseio.com",
+    "project_id": "storagedemo-7cd4e",
+    "storage_bucket": "storagedemo-7cd4e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:711133354854:android:38e9c81c0e790e16e506a7",
+        "android_client_info": {
+          "package_name": "com.assignment.storagedemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "711133354854-a57a5rktf12qtaeto7pm45hpu5j1t9qd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqyxqxvhSqO7JSs33Y8hD3RKZuirx4hEU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "711133354854-a57a5rktf12qtaeto7pm45hpu5j1t9qd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
